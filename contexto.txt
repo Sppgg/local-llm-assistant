@@ -1,0 +1,18 @@
+PROYECTO: Asistente local con Python y Ollama
+
+Este programa es un asistente de inteligencia artificial que funciona en un ordenador mediante Python y Ollama.
+Utiliza el modelo IBM Granite 3.3 para generar respuestas en español.
+
+Funciones principales:
+1. Leer archivos de texto (.txt) y utilizarlos como contexto.
+2. Enviar consultas a un modelo de lenguaje local.
+3. Configurar las instrucciones del sistema (System Prompt) y la consulta del usuario (User Prompt).
+4. Mostrar un menú interactivo para utilizar las distintas opciones.
+
+Aplicaciones prácticas:
+- Resumir documentos de texto.
+- Explicar conceptos de programación.
+- Identificar información relevante en archivos.
+- Crear un asistente personalizado que no dependa de una API de pago.
+
+Limitación: cargar un archivo como contexto no implica entrenar el modelo ni implementar un sistema RAG.
