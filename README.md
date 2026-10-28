@@ -7,7 +7,7 @@ A command-line application for interacting with a Large Language Model (LLM), an
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-Local_LLM-222222)
 ![IBM Granite](https://img.shields.io/badge/IBM-Granite_3.3-6929C4)
-![License](https://img.shields.io/badge/License-Not_specified-lightgrey)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -59,12 +59,12 @@ It was initially developed as a practical exercise in Python and Generative AI, 
 
 ```text
 local-llm-assistant/
-│
-├── main.py             # Application logic and interactive menu
-├── contexto.txt        # Example text document
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Excluded local files
-└── README.md           # Project documentation
+├── main.py
+├── contexto.txt
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 The application can also generate a local `historial.txt` file to store queries and responses. This file is excluded from version control.
@@ -266,8 +266,13 @@ This project provided hands-on experience with:
 
 ## Author
 
-**Sara | Applied AI · Python · Geospatial Technologies**
+**Sara P. | Applied AI · Python · Geospatial Technologies**
 
 [GitHub Profile](https://github.com/Sppgg)
 
 *Built as part of a practical Python and Generative AI learning project.*
+
+## License
+
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
